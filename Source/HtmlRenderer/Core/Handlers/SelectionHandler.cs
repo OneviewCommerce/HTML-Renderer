@@ -6,7 +6,7 @@
 // like the days and months;
 // they die and are reborn,
 // like the four seasons."
-// 
+//
 // - Sun Tsu,
 // "The Art of War"
 
@@ -247,7 +247,7 @@ namespace TheArtOfDev.HtmlRenderer.Core.Handlers
                 if (_mouseDownOnSelectedWord)
                 {
                     // make sure not to start drag-drop on click but when it actually moves as it fucks mouse-up
-                    if ((DateTime.Now - _lastMouseDown).TotalMilliseconds > 200)
+                    if ((DateTime.Now - _lastMouseDown).TotalMilliseconds > 400)
                         StartDragDrop(parent);
                 }
                 else

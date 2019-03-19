@@ -6,7 +6,7 @@
 // like the days and months;
 // they die and are reborn,
 // like the four seasons."
-// 
+//
 // - Sun Tsu,
 // "The Art of War"
 
@@ -85,7 +85,7 @@ namespace TheArtOfDev.HtmlRenderer.WinForms.Adapters
 
         public override void DoDragDropCopy(object dragDropData)
         {
-            _control.DoDragDrop(dragDropData, DragDropEffects.Copy);
+            //_control.DoDragDrop(dragDropData, DragDropEffects.Copy);
         }
 
         public override void MeasureString(string str, RFont font, double maxWidth, out int charFit, out double charFitWidth)
